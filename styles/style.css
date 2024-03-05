@@ -220,6 +220,14 @@ main {
     width: 165px;
 }
 
+/* Footer styles */
+
+.footer {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 0px;
+    text-align: center;
+}
+
 
 
 
