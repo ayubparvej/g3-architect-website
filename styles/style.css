@@ -156,6 +156,19 @@ main {
 }
 
 
+/* Sponsors Style */
+
+.sponsors-image-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.sponsors-image-container img {
+    width: 165px;
+}
 
 
 
@@ -176,7 +189,8 @@ main {
 
     nav,
     .teams-container,
-    .facts-card-container {
+    .facts-card-container,
+    .sponsors-image-container {
         flex-direction: column;
     }
 
@@ -204,7 +218,8 @@ main {
     }
 
     nav,
-    .teams-container {
+    .teams-container,
+    .sponsors-image-container {
         flex-direction: column;
     }
 }
